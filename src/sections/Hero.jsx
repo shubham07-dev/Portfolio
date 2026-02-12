@@ -1,6 +1,6 @@
-import { Button } from "@/components/Button";
-import { ArrowRight, Download, Linkedin, Github, Code2 } from "lucide-react";
-import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+// import { Button } from "@/components/Button";
+import { Download, Linkedin, Github, Code2 } from "lucide-react";
+// import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { Highlights } from "../components/Highlights";
 
 
@@ -17,7 +17,7 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background" />
       </div>
       {/* content */}
-      <div className="container mx-auto px-20 pt-30 pb-20 relative z-10">
+      <div className="container mx-auto px-6 md:px-20 pt-30 pb-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* left-section */}
           <div className="space-y-8">
@@ -27,14 +27,21 @@ export const Hero = () => {
               </span>
             </div>
 
-            {/* Headline */}
 {/* Headline */}
 <div className="space-y-4">
-  <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold leading-tight animate-fade-in animation-delay-100">
-    Hi, I'm <span className="text-primary">Shubham Shukla</span>
+  <h1 className="text-4xl md:text-4xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
+    <div className="text-3xl md:text-3xl lg:text-4xl mb-1">Hi, I'm </div><span className="text-4xl lg:text-5xl text-primary">Shubham Shukla</span>
   </h1>
 
-  <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
+{/* Mobile short intro */}
+<p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200 md:hidden">
+  Aspiring Software Engineer passionate about full-stack development,
+  data structures, and problem solving. I enjoy building scalable web
+  applications and continuously learning modern technologies to create
+  real-world solutions.
+</p>
+
+  <p className="hidden md:block text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
   Hi, I'm an aspiring Software Engineer with strong
   interest in full-stack development, data structures and algorithm design.
   I enjoy building scalable applications, solving complex problems, and
@@ -60,7 +67,7 @@ export const Hero = () => {
         active:scale-95
         cursor-pointer">
                   <Download className="w-5 h-5 inline-block mr-2" />
-                  Download CV
+                  See Resume
                 </button>
               </a>
 

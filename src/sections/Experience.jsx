@@ -21,7 +21,7 @@ export const Experience = () => {
     {
       period: "Aug 2025 — Sep 2025",
       role: "Internship",
-      company: "Era Foundation ,AKTU",
+      company: "Era Foundation , AKTU",
       desc: "Worked on real-world web development tasks, collaborated with team members and gained hands-on industry experience.",
       tech: "Web Development, Team Collaboration, Real-world Projects",
       current: false,
@@ -38,7 +38,7 @@ export const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="relative max-w-5xl mx-auto py-32 overflow-hidden">
+    <section id="experience" className="relative max-w-5xl mx-auto py-22 md:py-32 overflow-hidden">
       <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2" />
 
       <div className="container mx-auto px-6 relative z-10">
@@ -86,7 +86,8 @@ export const Experience = () => {
                     <h3 className="text-lg font-semibold text-primary font-serif">
                       {exp.role}
                     </h3>
-
+</div>
+<div>
                     <span className="text-sm text-gray">{exp.period}</span>
                   </div>
 

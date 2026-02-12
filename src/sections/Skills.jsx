@@ -54,17 +54,18 @@ const allSkills = [
 export const Skills = () => {
   return (
     <section id="Skills" className="py-24 relative">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-2">
         
         {/* Heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold glow-text">
-            Skills
-          </h2>
-          <p className="text-muted-foreground mt-4">
-            Technologies I use to build scalable web apps
-          </p>
-        </div>
+<div className="text-center mb-12">
+  <h2 className="text-4xl md:text-5xl font-bold glow-text">
+    Skills
+  </h2>
+  <p className="text-muted-foreground font-bold mt-4">
+   Technologies and tools I work with.
+  </p>
+</div>
+
 
         {/* ================= MOBILE VIEW ================= */}
         {/* All skills merged into one cloud */}
@@ -75,7 +76,7 @@ export const Skills = () => {
               className="
                 px-4 py-2 rounded-full text-sm
                 bg-primary/10 text-primary
-                border border-primary/20
+                border border-primary/50
                 backdrop-blur-md
               "
             >
