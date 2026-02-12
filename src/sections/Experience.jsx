@@ -20,7 +20,7 @@ export const Experience = () => {
 
     {
       period: "Aug 2025 — Sep 2025",
-      role: "Internship",
+      role: "Technical Intern",
       company: "Era Foundation , AKTU",
       desc: "Worked on real-world web development tasks, collaborated with team members and gained hands-on industry experience.",
       tech: "Web Development, Team Collaboration, Real-world Projects",
