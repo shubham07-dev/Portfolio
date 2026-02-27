@@ -58,7 +58,7 @@ export const Hero = () => {
               {/* <a href="#contact"><Button size="lg" className="cursor-pointer">
                 Contact Me <ArrowRight className="w-5 h-5 inline-block" />
               </Button></a> */}
-              <a href="/Resume_Final.pdf" className="inline-block" target="_blank">
+              <a href="/SWE_resume.pdf" className="inline-block" target="_blank">
                 <button className=" relative px-8 py-4 rounded-full text-lg font-medium
         border-2 border-primary text-foreground
         transition-all duration-300
